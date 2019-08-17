@@ -41,7 +41,6 @@
 
 	<body>
 	
-	
 		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 			<div class="container">
 				<div class="navbar-header">
@@ -111,7 +110,7 @@
 		
 		<script src="/socket.io/socket.io.js"></script> <!--tudo que é necessário para que do lado cliente seja possível emitir e escutar mensagens e enviar eventos para o servidor também-->
 		<script>
-			var socket = io('http://localhost');
+			var socket = io('http://192.168.0.103:3000');
 
 			$('#enviar_mensagem').click( function(){
 

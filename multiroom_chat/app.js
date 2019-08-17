@@ -2,7 +2,7 @@
 var app = require('./config/server');
 
 /* parametrizar a porta de escuta */
-var server = app.listen(80, function(){ //porta padrão de todos os navegadores
+var server = app.listen(3000, function(){ //porta padrão de todos os navegadores
 	console.log('Servidor Online');
 });
 
